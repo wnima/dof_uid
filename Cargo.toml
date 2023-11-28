@@ -1,0 +1,13 @@
+[package]
+name = "dof_uid"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# rsa库
+openssl = { version = "0.10", features = ["vendored"] }
+base64 = "0.12.1"
+hex = "0.4.3"
+clap = "~2.32"
